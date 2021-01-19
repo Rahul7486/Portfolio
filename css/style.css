@@ -65,11 +65,11 @@ position: relative;
 	width:100%;
 	 background-color: #fff;
 }
-.menu-grid-main{
- display: grid;
- grid-template-columns: 1fr 1fr;
-background-color: #fff;
- 
+.menu-grid-main {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu-icon{
@@ -948,4 +948,7 @@ time {
   .snip1559 figcaption{
     padding:5%;
   }
+	.logo img {
+    height: 65px;
+}
 }
